@@ -3,6 +3,7 @@
  import React from 'react';
 import ReactDOM from 'react-dom';
 
+
 import './index.css'; 
 
 
@@ -20,12 +21,13 @@ import MemoHooks from './components/06-UseMemorize/MemoHook';
 import { CallbackHook } from './components/06-UseMemorize/CallbackHook';
 
 import { Padre } from './components/07-tarea-memo/07-tarea-memo/Padre';
-import './components/08-UseReducer/Intro-Reducer' */
-import TodoApp from './components/08-UseReducer/TodoApp';
+import './components/08-UseReducer/Intro-Reducer' 
+import TodoApp from './components/08-UseReducer/TodoApp';*/
+import { MainApp } from './components/09-UseContext/MainApp';
 
 
 
 ReactDOM.render(
-    <TodoApp />,
+    <MainApp />,
   document.getElementById('root')
 );
